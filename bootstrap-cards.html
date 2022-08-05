@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c9661ead10.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            background: #ddd;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .profile-area {
+            padding: 80px 0;
+        }
+
+        .card {
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            border-radius: 15px;
+            background-color: lightcyan;
+        }
+
+        .img1 img {
+            height: 200px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            width: 100%;
+        }
+
+        .img2 img {
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 1;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 7px solid #fff;
+            margin-top: -55px;
+        }
+
+        .card:hover .img2 img {
+            border-color:cyan;
+            transition: .7s;
+        }
+
+        .main-text {
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .main-text h2 {
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 20px;
+            margin: 0 0 20px;
+        }
+
+        .main-text p {
+            font-size: 16px;
+            padding: 0 35px;
+        }
+
+        .socials {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .socials i{
+            font-size: 15px;
+            color: darkcyan;
+            padding:0 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img1"><img src="img4.jpeg" alt=""></div>
+                        <div class="img2"><img src="img1.jpg" alt=""></div>
+                        <div class="main-text">
+                            <h2>Harsh Vimal</h2>
+                            <p>Lorem ipsum dolor sit amet adipisicing. Doloribus laboriosam ratione
+                                velit est, unde suscipit nostrum culpa voluptate explicabo quidem a at magnam obcaecati
+                                tempore nulla labore.</p>
+                        </div>
+                        <div class="socials">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-google"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img1"><img src="img6.jpeg" alt=""></div>
+                        <div class="img2"><img src="img2.webp" alt=""></div>
+                        <div class="main-text">
+                            <h2>Rahul</h2>
+                            <p>Lorem ipsum dolor sit amet adipisicing. Doloribus laboriosam ratione
+                                velit est, unde suscipit nostrum culpa voluptate explicabo quidem a at magnam obcaecati
+                                tempore nulla labore.</p>
+                        </div>
+                        <div class="socials">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-google"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="img1"><img src="img2.jpeg" alt=""></div>
+                        <div class="img2"><img src="img3.jpg" alt=""></div>
+                        <div class="main-text">
+                            <h2>Raghav</h2>
+                            <p>Lorem ipsum dolor sit amet adipisicing. Doloribus laboriosam ratione
+                                velit est, unde suscipit nostrum culpa voluptate explicabo quidem a at magnam obcaecati
+                                tempore nulla labore.</p>
+                        </div>
+                        <div class="socials">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-google"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
